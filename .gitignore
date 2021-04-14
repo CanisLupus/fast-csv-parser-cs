@@ -1,0 +1,10 @@
+# Ignore everything by default.
+*
+
+# But not these...
+!.gitignore
+!*.cs
+!*.csproj
+!README.md
+!LICENSE
+!/tests/
