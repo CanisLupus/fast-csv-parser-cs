@@ -13,7 +13,7 @@ Simply copy the `Csv.cs` file to your project and use it. You need to import the
 
 ```C#
 string csvContents = System.IO.File.ReadAllText("somefile.csv");
-Csv csv = Csv.Parse(csvContent);
+Csv csv = Csv.Parse(csvContents);
 ```
 
 The `Csv` class is just a `List<List<string>>` with a custom `ToString` method for exporting/printing a valid CSV. You can easily create a `Csv` object as you would a list.
